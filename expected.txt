@@ -1,0 +1,76 @@
+
+*********
+FCFS
+	Processes	Burst time	Waiting time	Turn around time
+	1		6		0		6
+	2		10		6		16
+	3		4		16		20
+	4		9		20		29
+	5		2		29		31
+	6		8		31		39
+	7		14		39		53
+	8		2		53		55
+	9		5		55		60
+	10		10		60		70
+	11		8		70		78
+	12		1		78		79
+
+Average waiting time = 38.08
+Average turn around time = 44.67
+
+*********
+SJF
+	Processes	Burst time	Waiting time	Turn around time
+	1		6		14		20
+	2		10		44		54
+	3		4		1		5
+	4		9		26		35
+	5		2		0		2
+	6		8		11		19
+	7		14		64		78
+	8		2		2		4
+	9		5		9		14
+	10		10		55		65
+	11		8		26		34
+	12		1		1		2
+
+Average waiting time = 21.08
+Average turn around time = 27.67
+
+*********
+Priority
+	Processes	Burst time	Waiting time	Turn around time
+	12		1		5		6
+	9		5		6		11
+	1		6		11		17
+	2		10		17		27
+	6		8		27		35
+	5		2		35		37
+	3		4		37		41
+	7		14		41		55
+	10		10		55		65
+	11		8		65		73
+	4		9		73		82
+	8		2		82		84
+
+Average waiting time = 37.83
+Average turn around time = 44.42
+
+*********
+RR Quantum = 2
+	Processes	Burst time	Waiting time	Turn around time
+	1		6		37		43
+	2		10		60		70
+	3		4		25		29
+	4		9		62		71
+	5		2		8		10
+	6		8		54		62
+	7		14		65		79
+	8		2		14		16
+	9		5		47		52
+	10		10		65		75
+	11		8		60		68
+	12		1		22		23
+
+Average waiting time = 43.25
+Average turn around time = 49.83
